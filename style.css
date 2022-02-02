@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 550px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/Images/banner.jpg);
+}
+
+nav::before {
+  content: "";
+  width: 100%;
+  height: 550px;
+  background-color: #000;
+  opacity: 0.1;
+  z-index: 1;
+  position: absolute;
+}
+
+.contaner {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.headerWord {
+  background-color: orange;
+  color: white;
+  padding-right: 5px;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  padding-left: 25px;
+  float: right;
+}
+
+.logo {
+  font-size: 30px;
+  float: left;
+  margin-top: 10px;
+}
+
+.leftHeader {
+  float: right;
+  margin-top: 22px;
+}
+
+.headerText {
+  margin: 200px auto;
+}
+
+.headerText h2 {
+  color: orange;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 550px;
+}
+
+.headerText p {
+  color: white;
+  padding-left: 600px;
+}
+
+.theme {
+  text-align: center;
+  margin: 25px 0;
+  color: rgb(78, 34, 60);
+}
+
+.aboutMe {
+  width: 100%;
+  height: 240px;
+  background-color: rgb(243, 201, 123);
+  display: inline-flex;
+}
+
+.imgAbout {
+  height: 200px;
+  width: 30%;
+  background-image: url("/Images/AboutMe.jpg");
+  background-size: cover;
+  display: inline-block;
+  margin: 20px;
+}
+
+.textAbout {
+  display: inline-block;
+  width: 70%;
+  margin: 20px;
+}
+
+.lorem {
+  text-align: center;
+  padding: 10px;
+  color: rgb(85, 97, 96);
+  line-height: 20px;
+}
+
+.textAbout button {
+  color: black;
+  background-color: orange;
+  border: none;
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  margin: 0 270px;
+}
+
+main {
+  margin-top: 10px;
+}
+
+.box {
+  display: inline-block;
+  width: 33%;
+  height: 260px;
+  background-color: rgb(233, 204, 149);
+  box-shadow: 1px 1px 1px 0px;
+}
+
+.img1 {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image: url(/Images/Design.png);
+  background-size: cover;
+  background-position: center;
+  margin: 10px auto;
+}
+
+.img2 {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image: url(/Images/Web.jfif);
+  background-size: cover;
+  background-position: center;
+  margin: 10px auto;
+}
+
+.img3 {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image: url(/Images/Design.png);
+  background-size: cover;
+  background-position: center;
+  margin: 10px auto;
+}
+
+.mainh4 {
+  text-align: center;
+  padding: 5px;
+}
+
+.box p {
+  text-align: center;
+  color: rgb(85, 97, 96);
+  line-height: 20px;
+}
+
+.box2 {
+  display: inline-block;
+  width: 33%;
+  height: 220px;
+  background-image: url(/Images/MyWork1.jpg);
+  background-size: cover;
+  box-shadow: 1px 1px 1px 0px;
+}
+
+.box3 {
+  display: inline-block;
+  width: 33%;
+  height: 220px;
+  background-image: url(/Images/MyWork2.jpg);
+  background-size: cover;
+  box-shadow: 1px 1px 1px 0px;
+}
+
+.box4 {
+  display: inline-block;
+  width: 33%;
+  height: 220px;
+  background-image: url(/Images/MyWork3.jpg);
+  background-size: cover;
+  box-shadow: 1px 1px 1px 0px;
+}
+
+.box5 {
+  display: inline-block;
+  width: 33%;
+  height: 220px;
+  background-image: url(/Images/MyWork4.jpg);
+  background-size: cover;
+  box-shadow: 1px 1px 1px 0px;
+}
+
+.box6 {
+  display: inline-block;
+  width: 33%;
+  height: 220px;
+  background-image: url(/Images/MyWork5.png);
+  background-size: cover;
+  box-shadow: 1px 1px 1px 0px;
+}
+
+.box7 {
+  display: inline-block;
+  width: 33%;
+  height: 220px;
+  background-image: url(/Images/MyWork2.jpg);
+  background-size: cover;
+  box-shadow: 1px 1px 1px 0px;
+}
+
+.contactLeft {
+  width: 50%;
+  height: 280px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.distans {
+  margin: 30px 60px;
+}
+
+.location {
+  margin-top: 40px;
+}
+.phone {
+  margin-top: 40px;
+}
+.email {
+  margin-top: 40px;
+}
+
+.contactRight {
+  width: 50%;
+  height: 280px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 230px;
+}
+
+input {
+  display: block;
+  width: 370px;
+  height: 30px;
+  background-color: rgb(248, 202, 116);
+  border: none;
+  margin: 20px 40px;
+}
+
+form button {
+  background-color: orange;
+  color: black;
+  border: none;
+  height: 30px;
+  width: 120px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 160px;
+}
+
+section {
+  display: inline-flex;
+}
+
+input::placeholder {
+  color: black;
+  padding-left: 15px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(243, 243, 26);
+  margin-top: 40px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 50px;
+}
